@@ -457,6 +457,7 @@ div {border: 1px solid Chocolate;}
 
 .logo {
   padding: 0px 15px;
+  display: fill;
 }
 
 .top-navigation > .content > .links {
@@ -535,3 +536,41 @@ button:hover {
   border-color: #cf3d0e;
 }
 
+.cases {
+  text-align: center;
+  background-color: white;
+}
+
+.cases > h2 {
+  margin: 1.625rem 0 3.125rem;
+  font-size: 2.75rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+.cases .devices {
+  margin: 1.625rem 3.125rem;
+  text-align: center;
+}
+
+.cases .devices li {
+  display: inline-block;
+  text-align: center;
+  margin: 0rem 1rem;
+  border: 1px solid black;
+
+
+}
+
+.cases .devices img {
+  text-align: center;
+
+}
+
+.cases .devices .caption h3 {
+  font-weight: 400;
+  font-size: 1.563rem;
+  margin: 2.5rem 0px 1.875rem;
+
+
+}
