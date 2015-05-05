@@ -444,6 +444,9 @@ div {border: 1px solid Chocolate;}
 /* Navigation Section */
 .top-navigation {
   background-color: #fff;
+  position: fixed;
+  width: 100%;
+  z-index: 9999;
 
 }
 
@@ -452,12 +455,13 @@ div {border: 1px solid Chocolate;}
   margin: 0 auto;
   width: 60rem;
   min-width: 37.5rem;
-  padding: 0 0.938rem;
+  padding: 1rem 1rem;
 }
 
 .logo {
-  padding: 0px 15px;
-  display: fill;
+  padding: 0em 0.5em;
+  width: 2.5em;
+  
 }
 
 .top-navigation > .content > .links {
@@ -465,7 +469,6 @@ div {border: 1px solid Chocolate;}
   color: #838994;
   font-size: 1.04rem;
   letter-spacing: 0.03em;
-  margin-top: 1.7rem;
 
 }
 
@@ -551,6 +554,7 @@ button:hover {
 .cases .devices {
   margin: 1.625rem 3.125rem;
   text-align: center;
+  min-width: 52em;
 }
 
 .cases .devices li {
